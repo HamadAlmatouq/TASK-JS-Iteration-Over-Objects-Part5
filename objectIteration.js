@@ -33,7 +33,7 @@ const fruits = [
 
 // 1) Write a `getFruitColor` function that accepts a `fruit` object as an argument, and returns the color of that `fruit` object
 function getFruitColor(fruit) {
-  // write your code here...
+  // write your code here..
   return fruit.color;
 }
 // console.log(getFruitColor(fruits[0])); // Outputs: Red
