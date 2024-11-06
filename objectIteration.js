@@ -61,13 +61,16 @@ function addFruit(fruits, id, name, color, taste) {
 // 4) Write a `countSweetFruits`function that accepts an array of fruit objects `fruits`, and return the number of fruits with a sweet taste
 function countSweetFruits(fruits) {
   // write your code here...
-  return fruits.filter((fruit) => {
-    if (fruit.taste === "Sweet") {
-      return true;
-    } else {
-      return false;
-    }
-  }).length;
+
+  return fruits.filter((fruit) => fruit.taste === "Sweet").length;
+
+  // return fruits.filter((fruit) => {
+  //   if (fruit.taste === "Sweet") {
+  //     return true;
+  //   } else {
+  //     return false;
+  //   }
+  // }).length;
 }
 // console.log(countSweetFruits(fruits)); // Outputs: 4
 
